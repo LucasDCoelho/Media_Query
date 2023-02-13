@@ -10,6 +10,7 @@
     background-color: #Ce854f;
     transform: rotate(0deg);
     animation: rotateInsaneSquare 5s infinite ease-in-out;
+    transform: rotate3d(0deg);
 }
 
 .container2{
@@ -30,13 +31,9 @@
     }
     50%{
         transform: rotate(360deg);
+        transform: rotate3d(0, 1, 1(60deg));
         transform: skew(15deg);
         transform: perspective(23rem);
-        transform: matrix3d(
-            -0.1,       1.788, 0,        0,
-            -2.38,  -0.1,     0,        0,
-             0,         0,       1,        0,
-             0,         0,      0,        1);
         
         background-color: rgb(191, 82, 230);
         width: 5%;
