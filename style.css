@@ -34,7 +34,7 @@
         transform: perspective(23rem);
         transform: matrix3d(
             -0.1,       1.788, 0,        0,
-            -2.388,  -0.1,     0,        0,
+            -2.38,  -0.1,     0,        0,
              0,         0,       1,        0,
              0,         0,      0,        1);
         
